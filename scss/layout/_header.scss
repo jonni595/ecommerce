@@ -1,0 +1,27 @@
+.header {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li a {
+  margin-right: 20px;
+}
+
+.row__col-2 h1 {
+    font-size: 3.125rem;
+    line-height: 3.75rem;
+    margin: 1.5625rem 0rem;
+}
+
+.row__col-2 .btn {
+    display: inline-block;
+    background-color: var(--btn);
+    color: var(--bg-color);
+    padding: .5rem 1.875rem;
+    margin: 1.875rem 0rem;
+    border-radius: 1.875rem;
+}
