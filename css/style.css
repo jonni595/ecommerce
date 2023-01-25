@@ -110,4 +110,23 @@ nav ul li a {
   background-color: #563434;
 }
 
+.categories {
+  margin: 4.375rem 0rem;
+}
+.categories__small {
+  max-width: 67.5rem;
+  margin: auto;
+  padding: 0rem 1.5625rem 0rem 1.5625rem;
+}
+
+.col-3 {
+  flex-basis: 30%;
+  min-width: 15.625rem;
+  margin-bottom: 1.875rem;
+}
+
+.col-3 img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
