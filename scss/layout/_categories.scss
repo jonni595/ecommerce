@@ -1,0 +1,19 @@
+.categories {
+  margin: 4.375rem 0rem;
+
+  &__small {
+    max-width: 67.5rem;
+    margin: auto;
+    padding: 0rem 1.5625rem 0rem 1.5625rem;
+  }
+}
+
+.col-3 {
+  flex-basis: 30%;
+  min-width: 15.625rem;
+  margin-bottom: 1.875rem;
+}
+
+.col-3 img {
+  width: 100%;
+}
