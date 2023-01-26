@@ -1,2 +1,2 @@
 # ecommerce
-## shopping store
+## shopping store 👝
