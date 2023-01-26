@@ -36,3 +36,40 @@ nav ul li a {
 .row__col-2 .btn:hover {
   background-color: #563434;
 }
+
+.menu-icon {
+  width: 1.75rem;
+  margin-left: 1.25rem;
+  display: none;
+}
+
+@media (max-width: 50rem) {
+  nav ul {
+    position: absolute;
+    top: 4.375rem;
+    left: 0;
+    background: #333;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height .5s;
+  }
+  nav ul li {
+    display: block;
+    margin-right: 3.125rem;
+    margin-top: .625rem;
+    margin-bottom: .625rem;
+  }
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 37.5rem) {
+  .row {
+    text-align: center;
+  }
+  .row__col-2, .col-3, .col-4 {
+    flex-basis: 100%;
+  }
+}
