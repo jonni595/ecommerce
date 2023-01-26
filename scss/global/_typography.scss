@@ -12,6 +12,10 @@ a, a:active, a:visited {
     color: var(--link);
 }
 
+ul {
+    padding: 0;
+}
+
 ul, li {
     list-style: none;
 }
